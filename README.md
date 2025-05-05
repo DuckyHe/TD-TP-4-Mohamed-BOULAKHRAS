@@ -15,7 +15,9 @@ Il faut mettre un @Order différent pour chaque test, puis relancer les tests et
 Chaque test doit avoir un numéro d'ordre unique. Sinon l'ordre d'exécution n'est pas garanti.
 
 Exercice 6 
+
 4) assertNotNull(plage) :
 Vérifie que l'objet PlageHoraire a bien été créé et n'est pas null.
+
 assertEquals(60, plage.getDuree()) :
 Vérifie que la méthode getDuree() retourne la durée correcte (en minutes) entre les horaires de début et de fin.
